@@ -38,7 +38,7 @@ sudo bash /usr/local/share/flyovrio/git/install-or-update-interface.sh
 ```
 Remove:
 ```
-sudo bash /usr/local/share/tar1090/uninstall.sh adsbfi
+sudo bash /usr/local/share/tar1090/uninstall.sh flyovrio
 ```
 
 ### Update the feed client without reconfiguring
