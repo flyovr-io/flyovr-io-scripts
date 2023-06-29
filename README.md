@@ -51,8 +51,8 @@ sudo bash /tmp/update.sh
 ### If you encounter issues, please do a reboot and then supply these logs on Discord (last 20 lines for each is sufficient):
 
 ```
-sudo journalctl -u adsbfi-feed --no-pager
-sudo journalctl -u adsbfi-mlat --no-pager
+sudo journalctl -u flyovrio-feed --no-pager
+sudo journalctl -u flyovrio-mlat --no-pager
 ```
 
 ### Display the configuration
