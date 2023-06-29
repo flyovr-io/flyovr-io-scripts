@@ -72,7 +72,7 @@ curl -L -o /tmp/feed.sh https://raw.githubusercontent.com/flyovrio/flyovr-io-scr
 sudo bash /tmp/feed.sh
 ```
 
-### Disable / Enable adsb.fi MLAT-results in your main decoder interface (readsb / dump1090-fa)
+### Disable / Enable flyovr.io MLAT-results in your main decoder interface (readsb / dump1090-fa)
 
 This is enabled by default. You probably don't need to change that.
 
