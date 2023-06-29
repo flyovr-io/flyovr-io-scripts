@@ -58,7 +58,7 @@ sudo journalctl -u flyovrio-mlat --no-pager
 ### Display the configuration
 
 ```
-cat /etc/default/adsbfi
+cat /etc/default/flyovrio
 ```
 
 ### Changing the configuration
