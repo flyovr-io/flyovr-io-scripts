@@ -29,7 +29,7 @@ tcp        0    410 localhost:12772     44.214.251.49:30004      ESTABLISHED
 
 ## 4: Optional: Install [local interface](https://github.com/wiedehopf/tar1090) for your data
 
-The interface will be available at http://192.168.X.XX/adsbfi  
+The interface will be available at http://192.168.X.XX/flyovrio 
 Replace the IP address with the address of your Raspberry Pi.
 
 Install / Update:
