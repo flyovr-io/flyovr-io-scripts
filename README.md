@@ -34,7 +34,7 @@ Replace the IP address with the address of your Raspberry Pi.
 
 Install / Update:
 ```
-sudo bash /usr/local/share/adsbfi/git/install-or-update-interface.sh
+sudo bash /usr/local/share/flyovrio/git/install-or-update-interface.sh
 ```
 Remove:
 ```
