@@ -1,6 +1,6 @@
 # flyovr.io feed client
 
-- These scripts aid in setting up your current ADS-B receiver to feed [adsb.fi](https://adsb.fi/).
+- These scripts aid in setting up your current ADS-B receiver to feed [flyovr.io](https://flyovr.io/).
 - This will not disrupt any existing feed clients already present.
 - When setting up new feeders, a decoder such as [readsb](https://github.com/wiedehopf/adsb-scripts/wiki/Automatic-installation-for-readsb) must be installed separately.
 
