@@ -1,4 +1,4 @@
-# adsb.fi feed client
+# flyovr.io feed client
 
 - These scripts aid in setting up your current ADS-B receiver to feed [adsb.fi](https://adsb.fi/).
 - This will not disrupt any existing feed clients already present.
