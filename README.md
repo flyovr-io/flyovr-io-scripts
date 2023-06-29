@@ -44,7 +44,7 @@ sudo bash /usr/local/share/tar1090/uninstall.sh flyovrio
 ### Update the feed client without reconfiguring
 
 ```
-curl -L -o /tmp/update.sh https://raw.githubusercontent.com/adsbfi/adsb-fi-scripts/master/update.sh
+curl -L -o /tmp/update.sh https://raw.githubusercontent.com/flyovrio/flyovr-io-scripts/master/update.sh
 sudo bash /tmp/update.sh
 ```
 
