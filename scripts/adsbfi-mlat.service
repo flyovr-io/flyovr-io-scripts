@@ -1,13 +1,13 @@
 
 [Unit]
-Description=adsbfi-mlat
+Description=flyovrio-mlat
 Wants=network.target
 After=network.target
 
 [Service]
-User=adsbfi
-RuntimeDirectory=adsbfi-mlat
-ExecStart=/usr/local/share/adsbfi/adsbfi-mlat.sh
+User=flyovrio
+RuntimeDirectory=flyovrio-mlat
+ExecStart=/usr/local/share/flyovrio/flyovrio-mlat.sh
 Type=simple
 Restart=always
 RestartSec=30
