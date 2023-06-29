@@ -79,39 +79,39 @@ This is enabled by default. You probably don't need to change that.
 - Disable:
 
 ```
-sudo sed --follow-symlinks -i -e 's/RESULTS=.*/RESULTS=""/' /etc/default/adsbfi
-sudo systemctl restart adsbfi-mlat
+sudo sed --follow-symlinks -i -e 's/RESULTS=.*/RESULTS=""/' /etc/default/flyovrio
+sudo systemctl restart flyovrio-mlat
 ```
 - Enable:
 
 ```
-sudo sed --follow-symlinks -i -e 's/RESULTS=.*/RESULTS="--results beast,connect,127.0.0.1:30104"/' /etc/default/adsbfi
-sudo systemctl restart adsbfi-mlat
+sudo sed --follow-symlinks -i -e 's/RESULTS=.*/RESULTS="--results beast,connect,127.0.0.1:30104"/' /etc/default/flyovrio
+sudo systemctl restart flyovrio-mlat
 ```
 
 ### Restart the feed client
 
 ```
-sudo systemctl restart adsbfi-feed
-sudo systemctl restart adsbfi-mlat
+sudo systemctl restart flyovrio-feed
+sudo systemctl restart flyovrio-mlat
 ```
 
 ### Show status
 
 ```
-sudo systemctl status adsbfi-feed
-sudo systemctl status adsbfi-mlat
+sudo systemctl status flyovrio-feed
+sudo systemctl status flyovrio-mlat
 ```
 
 ### Removal / disabling the services
 
 ```
-sudo bash /usr/local/share/adsbfi/uninstall.sh
+sudo bash /usr/local/share/flyovrio/uninstall.sh
 ```
 
 If the above doesn't work, you can just disable the services and the scripts won't run anymore:
 
 ```
-sudo systemctl disable --now adsbfi-feed
-sudo systemctl disable --now adsbfi-mlat
+sudo systemctl disable --now flyovrio-feed
+sudo systemctl disable --now flyovrio-mlat
 ```
