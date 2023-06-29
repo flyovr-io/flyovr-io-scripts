@@ -1,26 +1,26 @@
 #!/bin/bash
 set -x
 
-IPATH=/usr/local/share/adsbfi
+IPATH=/usr/local/share/flyovrio
 
-systemctl disable --now adsbfi-mlat
-systemctl disable --now adsbfi-mlat2 &>/dev/null
-systemctl disable --now adsbfi-feed
+systemctl disable --now flyovrio-mlat
+systemctl disable --now flyovrio-mlat2 &>/dev/null
+systemctl disable --now flyovrio-feed
 
-if [[ -d /usr/local/share/tar1090/html-adsbfi ]]; then
-    bash /usr/local/share/tar1090/uninstall.sh adsbfi
+if [[ -d /usr/local/share/tar1090/html-flyovrio ]]; then
+    bash /usr/local/share/tar1090/uninstall.sh flyovrio
 fi
 
-rm -f /lib/systemd/system/adsbfi-mlat.service
-rm -f /lib/systemd/system/adsbfi-mlat2.service
-rm -f /lib/systemd/system/adsbfi-feed.service
+rm -f /lib/systemd/system/flyovrio-mlat.service
+rm -f /lib/systemd/system/flyovrio-mlat2.service
+rm -f /lib/systemd/system/flyovrio-feed.service
 
-cp -f "$IPATH/adsbfi-uuid" /tmp/adsbfi-uuid
+cp -f "$IPATH/flyovrio-uuid" /tmp/flyovrio-uuid
 rm -rf "$IPATH"
 mkdir -p "$IPATH"
-mv -f /tmp/adsbfi-uuid "$IPATH/adsbfi-uuid"
+mv -f /tmp/flyovrio-uuid "$IPATH/flyovrio-uuid"
 
 set +x
 
 echo -----
-echo "adsb.fi feed scripts have been uninstalled!"
+echo "flyovr.io feed scripts have been uninstalled!"
