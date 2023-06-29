@@ -68,7 +68,7 @@ If the client is up to date it should not take as long as the original installat
 otherwise this will also update the client which will take a moment.
 
 ```
-curl -L -o /tmp/feed.sh https://raw.githubusercontent.com/adsbfi/adsb-fi-scripts/master/install.sh
+curl -L -o /tmp/feed.sh https://raw.githubusercontent.com/flyovrio/flyovr-io-scripts/master/install.sh
 sudo bash /tmp/feed.sh
 ```
 
