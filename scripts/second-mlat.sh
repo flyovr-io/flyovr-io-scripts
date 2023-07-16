@@ -32,7 +32,7 @@ Restart=always
 RestartSec=30
 StartLimitInterval=1
 StartLimitBurst=100
-SyslogIdentifier=adsbfi-mlat2
+SyslogIdentifier=flyovrio-mlat2
 Nice=-1
 
 [Install]
