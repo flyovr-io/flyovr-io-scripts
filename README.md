@@ -11,7 +11,7 @@
 ## 2: Install the feed client
 
 ```
-curl -L -o /tmp/feed.sh https://install.flyovr.io/feed.sh
+curl -L -o /tmp/feed.sh https://install.flyovr.io/
 sudo bash /tmp/feed.sh
 ```
 
