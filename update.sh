@@ -269,7 +269,7 @@ echo 70
 
 # SETUP FEEDER TO SEND DUMP1090 DATA TO flyovr.io
 
-READSB_REPO="https://github.com/flyovrio/readsb.git"
+READSB_REPO="https://github.com/flyovr-io/readsb.git"
 READSB_BRANCH="master"
 if grep -E 'wheezy|jessie' /etc/os-release -qs; then
     READSB_BRANCH="jessie"
