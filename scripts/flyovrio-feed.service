@@ -7,7 +7,7 @@ After=network.target
 [Service]
 User=flyovrio
 RuntimeDirectory=flyovrio-feed
-ExecStart=/usr/local/share/flyovr/flyovrio-feed.sh
+ExecStart=/usr/local/share/flyovrio/flyovrio-feed.sh
 Type=simple
 Restart=always
 RestartSec=30
