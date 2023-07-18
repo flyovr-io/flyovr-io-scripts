@@ -359,7 +359,7 @@ echo 96
 }
 
 # Remove old method of starting the feed scripts if present from rc.local
-# Kill the old adsb.fi scripts in case they are still running from a previous install including spawned programs
+# Kill the old flyovr.io scripts in case they are still running from a previous install including spawned programs
 for name in flyovrio-netcat_maint.sh flyovrio-socat_maint.sh flyovrio-mlat_maint.sh; do
     if grep -qs -e "$name" /etc/rc.local; then
         sed -i -e "/$name/d" /etc/rc.local || true
