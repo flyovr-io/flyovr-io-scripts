@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-REPO="https://github.com/flyovrio/flyovr-io-scripts.git"
+REPO="https://github.com/flyovr-io/flyovr-io-scripts.git"
 BRANCH="master"
 IPATH=/usr/local/share/flyovrio
 mkdir -p $IPATH
