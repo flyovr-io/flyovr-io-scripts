@@ -389,7 +389,7 @@ echo "---------------------"
 ENDTEXT="
 Thanks for choosing to share your data with flyovr.io!
 
-Your feed should be active within 5 minutes, you can confirm by running the following command and looking for the IP address 44.214.251.49
+Your feed should be active within 5 minutes, you can confirm by running the following command and looking for the IP address 54.197.249.111
 netstat -t -n | grep -E '30004|31090'
 
 Question? Issues? Go here:
