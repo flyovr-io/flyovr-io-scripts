@@ -101,7 +101,7 @@ function getGIT() {
     echo "--- end getGIT() ---"
 }
 
-REPO="https://github.com/flyovrio/flyovr-io-scripts.git"
+REPO="https://github.com/flyovr-io/flyovr-io-scripts.git"
 BRANCH="master"
 
 IPATH=/usr/local/share/flyovrio
@@ -190,7 +190,7 @@ then
 fi
 
 
-MLAT_REPO="https://github.com/flyovrio/mlat-client"
+MLAT_REPO="https://github.com/flyovr-io/mlat-client"
 MLAT_BRANCH="master"
 MLAT_VERSION="$(git ls-remote $MLAT_REPO $MLAT_BRANCH | cut -f1 || echo $RANDOM-$RANDOM )"
 if [[ $REINSTALL != yes ]] && grep -e "$MLAT_VERSION" -qs $IPATH/mlat_version \
