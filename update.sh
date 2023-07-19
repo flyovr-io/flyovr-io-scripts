@@ -305,7 +305,9 @@ else
 
     make clean
     make -j2 AIRCRAFT_HASH_BITS=12 >> $LOGFILE
+    
     echo 80
+    
     rm -f "$READSB_BIN"
     cp readsb "$READSB_BIN"
     revision > $IPATH/readsb_version || rm -f $IPATH/readsb_version
