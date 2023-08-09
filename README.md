@@ -16,7 +16,7 @@ sudo bash /tmp/feed.sh
 ```
 
 ## 3: Use netstat to check that your feed is working
-The feed IP for flyovr.io is 44.214.251.49
+The feed IP for flyovr.io is 54.197.249.111
 
 ```
 netstat -t -n | grep -E '30004|31090'
@@ -24,7 +24,7 @@ netstat -t -n | grep -E '30004|31090'
 Expected Output:
 ```
 tcp        0    182 localhost:71669     54.197.249.111:31090      ESTABLISHED
-tcp        0    410 localhost:12772     54.197.249.111:30004      ESTABLISHED
+tcp        0    410 localhost:12772     54.197.249.111:30004      ESTABLISHED (MLAT is not up as of 8/8/23 so this will not be present in netstat)
 ```
 
 ## 4: Optional: Install [local interface](https://github.com/wiedehopf/tar1090) for your data
